@@ -24,8 +24,6 @@ We’ve extended it to support **autonomous navigation**, **obstacle memory**, a
 - **`index.html`**
   - Added a **goal flag** at `(24, 24)` consisting of a **yellow stick and red flag**.
   - Added new **walls and a small house** for better pathfinding realism.
-  - 📥 You can download the modified `index.html` here: **[Download Modified Simulator](#)**  
-    *(Replace the link with the actual download location if you're sharing this)*
 
 ---
 
@@ -59,6 +57,8 @@ We’ve extended it to support **autonomous navigation**, **obstacle memory**, a
 ### 1️⃣ Install Requirements
 ```bash
 pip install flask websockets
+
+```
 
 
 2️⃣ Start the Server:
