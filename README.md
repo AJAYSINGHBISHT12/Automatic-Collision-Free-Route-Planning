@@ -75,3 +75,4 @@ python -m http.server
 ```bash
 python path_planner.py
 ```
+Please use the modified files(index.html and server.py) attached in this repository for properly working!
