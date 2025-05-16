@@ -1,4 +1,4 @@
-# 🤖 Autonomous Robot Navigation – A* Path Planning Extension
+# Autonomous Robot Navigation – A* Path Planning Extension
 
 This project is an enhanced version of the original robot simulator:  
 🔗 https://github.com/terafac/sim-1
@@ -7,7 +7,7 @@ We’ve extended it to support **autonomous navigation**, **obstacle memory**, a
 
 ---
 
-## 🔁 Changes Made
+##  Changes Made
 
 ### 🔧 Modified Files
 
@@ -43,7 +43,7 @@ We’ve extended it to support **autonomous navigation**, **obstacle memory**, a
 
 ---
 
-## 🧠 How It Works
+## How It Works
 
 - The robot starts at `(0, 0)` and automatically finds a path to `(24, 24)` using A*.
 - If it collides with an obstacle, the simulator sends a collision message.
@@ -62,10 +62,16 @@ pip install flask websockets
 
 
 2️⃣ Start the Server:
+```bash
 python server.py
+```
 
 3️⃣ Launch the Simulator:
+```bash
 python -m http.server
+```
 
 4️⃣ Start the Autonomous Robot:
+```bash
 python path_planner.py
+```
